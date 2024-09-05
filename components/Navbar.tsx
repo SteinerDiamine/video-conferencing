@@ -21,8 +21,15 @@ const Navbar = () => {
 </p>
 </Link>
 <div className='flex-between gap-5'>
-      <SignedIn>
-          <UserButton/>
+      <SignedIn >
+          <UserButton    appearance={{
+              elements: {
+                avatarBox: {
+                  width: '48px',  // Set width of the avatar
+                  height: '48px', // Set height of the avatar
+                }
+              }
+            }} />
         </SignedIn>
   <MobileNav/>
 </div>
