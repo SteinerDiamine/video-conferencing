@@ -53,6 +53,8 @@ import { ClerkProvider } from "@clerk/nextjs";
 
 const inter = Inter({ subsets: ["latin"] });
 
+import { Toaster } from "@/components/ui/toaster"
+
 
 export default function RootLayout({
   children,
@@ -79,6 +81,7 @@ export default function RootLayout({
         <body className={`${inter.className} bg-dark-2`}>
      
           {children}
+          <Toaster/>
         </body>
       </ClerkProvider>
     </html>
