@@ -25,8 +25,8 @@ const Navbar = () => {
           <UserButton    appearance={{
               elements: {
                 avatarBox: {
-                  width: '48px',  // Set width of the avatar
-                  height: '48px', // Set height of the avatar
+                  width: '45px',  // Set width of the avatar
+                  height: '45px', // Set height of the avatar
                 }
               }
             }} />

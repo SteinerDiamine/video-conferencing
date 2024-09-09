@@ -2,6 +2,7 @@
 import Loader from '@/components/Loader';
 import MeetingRoom from '@/components/MeetingRoom';
 import MeetingSetup from '@/components/MeetingSetup';
+
 import { useGetCallById } from '@/hooks/useCallById';
 import { useUser } from '@clerk/nextjs';
 import { StreamCall, StreamTheme } from '@stream-io/video-react-sdk';
@@ -18,9 +19,14 @@ const Meeting = ({ params }: { params: { id: string } }) => {
 
   return (
     <main className="h-screen w-full">
-      <StreamCall call={call}>
+       <StreamCall call={call}>
         <StreamTheme>
-          {!isSetupComplete ? <MeetingSetup /> : <MeetingRoom />}
+
+        {!isSetupComplete ? (
+          <MeetingSetup setIsSetupComplete={setIsSetupcomplete} />
+        ) : (
+          <MeetingRoom />
+        )}
         </StreamTheme>
       </StreamCall>
     </main>
