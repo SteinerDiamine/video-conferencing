@@ -42,6 +42,10 @@ const config = {
         yellow: {
           1: '#F9A90E',
         },
+
+        diamine:{
+          1: '7091E6'
+        }
       },
       keyframes: {
         'accordion-down': {
