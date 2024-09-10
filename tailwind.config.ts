@@ -19,6 +19,12 @@ const config = {
     },
     extend: {
       colors: {
+
+        softCyan: '#A3D8F4',
+        blushPink: '#FF6F61',
+        midnightNavy: '#2C3E50',
+        lightMintGreen: '#A9DFBF',
+        warmSand :'#36454F',
         dark: {
           1: '#1C1F2E',
           2: '#161925',

@@ -11,6 +11,15 @@ const inter = Inter({ subsets: ["latin"] });
 import { Toaster } from "@/components/ui/toaster"
 
 
+export const metadata: Metadata = {
+  title: "Video call",
+  description: "Video calling App",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
+};
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
