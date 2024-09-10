@@ -36,3 +36,7 @@ const Alert = ({ title, iconUrl }: PermissionCardProps) => {
 };
 
 export default Alert;
+
+// bg-blushPink
+// "bg-blue-700"
+// bg-warmSand"
