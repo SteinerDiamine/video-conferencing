@@ -70,6 +70,8 @@ const MeetingTypeList = () => {
       }
     };
 
+    const meetingLink = `${process.env.NEXT_PUBLIC_BASE_URL}/meeting/${callDetails?.id}`
+
    
 
 
@@ -144,7 +146,10 @@ const MeetingTypeList = () => {
         title = "Meeting created"
         className = "text-center"
        
-        handleClick = {createMeeting}
+        handleClick = {() => {
+          navigator.clipboard.writeText(meetingLink);
+          toast({title:'Link copied'})
+        }}
 
         image="/icons/checked.svg"
         buttonIcon="/icons/copy.svg"

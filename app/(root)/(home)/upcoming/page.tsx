@@ -1,7 +1,11 @@
+import CallList from "@/components/CallList"
 
 const Upcoming = () => {
   return (
-    <div>Upcoming</div>
+   
+
+    <CallList type="upcoming"/>
+
 
   )
 
