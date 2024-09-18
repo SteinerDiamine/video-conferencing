@@ -17,7 +17,7 @@ const Navbar = () => {
         
         />
         <p className='text-[26px] font-extrabold max-sm:hidden bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 drop-shadow-lg'>
-  Zoom
+  Flow
 </p>
 </Link>
 <div className='flex-between gap-5'>
