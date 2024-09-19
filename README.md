@@ -1,37 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Video Conferencing App
 
-## Getting Started
+### About
 
-First, run the development server:
+Welcome to my video conferencing app! This app lets you attend meetings, hop on video calls, join seminars, and more. It's packed with features like recording your sessions and scheduling future calls or meetings — all in one place!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Join Meetings & Calls**: Whether it’s a quick video chat or a formal seminar, you're covered.
+- **Schedule Your Sessions**: Set up meetings or calls in advance and get reminders.
+- **Recording**: Record your sessions so you can go back and review them later.
+- **Real-time Video & Audio**: Smooth, high-quality streaming so you don't miss a beat.
+- **Easy to Use**: Designed with simplicity in mind, so you can focus on your meeting and not on figuring out the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Tech Stuff
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This app is fully built using Next.js, a powerful React-based framework that provides server-side rendering, API routes, and a seamless developer experience. Next.js allows for fast, scalable, and easy-to-maintain web applications, making it the perfect choice for building this video conferencing platform.
 
-## Learn More
+### How to Use It
 
-To learn more about Next.js, take a look at the following resources:
+1. **Schedule a Meeting**: Go to the scheduling section, pick a time, and invite your friends or colleagues.
+2. **Join a Call**: Use the meeting link or ID to jump into any meeting or seminar.
+3. **Record Sessions**: Hit record to save your meetings and check them out in the “Recordings” section later.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Want to Contribute?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Fork the repo.
+2. Create a branch (`git checkout -b feature/your-feature-name`).
+3. Make your changes and commit (`git commit -m 'Add new feature'`).
+4. Push it up (`git push origin feature/your-feature-name`).
+5. Open a Pull Request — I’d love to see what you come up with!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# video-conferencing
